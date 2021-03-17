@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Oswald&display=swap");
+.logo {
+  color: #FAF0E6;
+  font-family: 'Acme', sans-serif;
+  font-size: 1.75rem;
+}
+
+.logo .logo_icon {
+  color: #8FBC8F;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+
+.logo .logo_brand {
+  font-size: 2rem;
+}
+
+.logo .logo_brand .name {
+  color: #228B22;
+  font-family: 'Actor', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
