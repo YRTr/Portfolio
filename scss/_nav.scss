@@ -1,22 +1,24 @@
-@import 'variables';
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Oswald&display=swap');
-
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Oswald&display=swap");
+#navbar {
+  background-color: rgba(85, 107, 47, 0.2);
+}
 .logo {
-    color: $brand-primary;
-    font-family: 'Acme', sans-serif;
-    font-size: 1.75rem;
+  color: $brand-primary;
+  font-family: "Acme", sans-serif;
+  font-size: 1.75rem;
 
-    #{&}_icon {
-        color: $logo-primary;
-        display: inline-block;
-        margin-right: 0.3em;
-    }
+  #{&}_icon {
+    color: $logo-primary;
+    display: inline-block;
+    margin-right: 0.3em;
+  }
 
-    #{&}_brand {
-        font-size: 2rem;
-        .name {
-            color: $brand-secondary;
-            font-family: 'Actor', sans-serif;
-        }
+  #{&}_brand {
+    font-size: 2rem;
+    .name {
+      color: $brand-secondary;
+      font-family: "Actor", sans-serif;
     }
+  }
 }

@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Oswald&display=swap");
+#navbar {
+  background-color: rgba(85, 107, 47, 0.2);
+}
+
 .logo {
-  color: #FAF0E6;
-  font-family: 'Acme', sans-serif;
+  color: #faf0e6;
+  font-family: "Acme", sans-serif;
   font-size: 1.75rem;
 }
 
 .logo .logo_icon {
-  color: #8FBC8F;
+  color: #228b22;
   display: inline-block;
   margin-right: 0.3em;
 }
@@ -16,7 +21,80 @@
 }
 
 .logo .logo_brand .name {
-  color: #228B22;
-  font-family: 'Actor', sans-serif;
+  color: #228b22;
+  font-family: "Actor", sans-serif;
+}
+
+#navbar {
+  background-color: rgba(85, 107, 47, 0.2);
+}
+
+.logo {
+  color: #faf0e6;
+  font-family: "Acme", sans-serif;
+  font-size: 1.75rem;
+}
+
+.logo .logo_icon {
+  color: #228b22;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+
+.logo .logo_brand {
+  font-size: 2rem;
+}
+
+.logo .logo_brand .name {
+  color: #228b22;
+  font-family: "Actor", sans-serif;
+}
+
+.social {
+  background-color: rgba(255, 215, 0, 0.1);
+  display: block;
+  width: 90px;
+  height: 100%;
+  position: fixed;
+}
+
+.social .social_labels {
+  margin-top: 7.5em;
+}
+
+.social .social_labels .social_labels_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+.social .social_labels .social_labels_list .links .media_icons {
+  color: #696969;
+  font-size: 2.5em;
+}
+
+.social .social_labels .social_labels_list .links .git:hover {
+  color: #ff4500;
+}
+
+.social .social_labels .social_labels_list .links .hrank:hover {
+  color: #008000;
+}
+
+.social .social_labels .social_labels_list .links .insta:hover {
+  color: #663399;
+}
+
+.social .social_labels .social_labels_list .links .fb:hover {
+  color: #1e90ff;
+}
+
+.social .social_labels .social_labels_list .links .tweet:hover {
+  color: #00ced1;
 }
 /*# sourceMappingURL=main.css.map */

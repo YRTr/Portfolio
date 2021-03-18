@@ -1,0 +1,49 @@
+@import "nav";
+
+.social {
+  background-color: $media-bg;
+  display: block;
+  width: 90px;
+  height: 100%;
+  position: fixed;
+
+  #{&}_labels {
+    margin-top: 7.5em;
+    .social_labels_list {
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+      .links {
+        .media_icons {
+          color: $media-primary;
+          font-size: 2.5em;
+        }
+        .git {
+          &:hover {
+            color: $git;
+          }
+        }
+        .hrank {
+          &:hover {
+            color: $hrank;
+          }
+        }
+        .insta {
+          &:hover {
+            color: $insta;
+          }
+        }
+        .fb {
+          &:hover {
+            color: $fb;
+          }
+        }
+        .tweet {
+          &:hover {
+            color: $tweet;
+          }
+        }
+      }
+    }
+  }
+}
