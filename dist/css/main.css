@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Taviraj&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Ubuntu+Condensed&display=swap");
 #navbar {
-  background-color: rgba(85, 107, 47, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .logo {
-  color: #faf0e6;
+  color: #f5f5dc;
   font-family: "Acme", sans-serif;
   font-size: 1.75rem;
 }
 
 .logo .logo_icon {
-  color: #228b22;
-  display: inline-block;
+  color: #ff8c00;
   margin-right: 0.3em;
 }
 
@@ -21,23 +22,38 @@
 }
 
 .logo .logo_brand .name {
-  color: #228b22;
+  color: #ff8c00;
   font-family: "Actor", sans-serif;
 }
 
+.n_content {
+  margin-right: 3rem;
+}
+
+.n_content .n_list .n_render {
+  margin-right: 2em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.n_content .n_list .n_render:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: #ffffe0;
+}
+
 #navbar {
-  background-color: rgba(85, 107, 47, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .logo {
-  color: #faf0e6;
+  color: #f5f5dc;
   font-family: "Acme", sans-serif;
   font-size: 1.75rem;
 }
 
 .logo .logo_icon {
-  color: #228b22;
-  display: inline-block;
+  color: #ff8c00;
   margin-right: 0.3em;
 }
 
@@ -46,20 +62,34 @@
 }
 
 .logo .logo_brand .name {
-  color: #228b22;
+  color: #ff8c00;
   font-family: "Actor", sans-serif;
+}
+
+.n_content {
+  margin-right: 3rem;
+}
+
+.n_content .n_list .n_render {
+  margin-right: 2em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.n_content .n_list .n_render:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: #ffffe0;
 }
 
 .social {
-  background-color: rgba(255, 215, 0, 0.1);
-  display: block;
   width: 90px;
-  height: 100%;
   position: fixed;
+  margin-top: 6rem;
 }
 
 .social .social_labels {
-  margin-top: 7.5em;
+  margin: 0.3em 0 0.3em 0;
 }
 
 .social .social_labels .social_labels_list {
@@ -71,11 +101,28 @@
       -ms-flex-direction: column;
           flex-direction: column;
   list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.05em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social .social_labels .social_labels_list .links .media_icons {
-  color: #696969;
+  color: #ffffe0;
+  text-shadow: 0 0 3px #222;
   font-size: 2.5em;
+  display: inline-block;
+}
+
+.social .social_labels .social_labels_list .links .media_icons:hover {
+  -webkit-transition: color 500ms;
+  transition: color 500ms;
+}
+
+.social .social_labels .social_labels_list .links .in:hover {
+  color: #008b8b;
 }
 
 .social .social_labels .social_labels_list .links .git:hover {
@@ -96,5 +143,112 @@
 
 .social .social_labels .social_labels_list .links .tweet:hover {
   color: #00ced1;
+}
+
+.info {
+  text-align: center;
+}
+
+.info .pic {
+  text-align: center;
+  padding: 2rem;
+}
+
+.info .pic .pic_img {
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, from(#2c3e50), to(#fd746c));
+  background: linear-gradient(to right, #2c3e50, #fd746c);
+  padding: 3px;
+}
+
+hr {
+  padding: 2px;
+  color: #7a2b2b;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  color: #fff5ee;
+}
+
+.prof {
+  color: #faebd7;
+}
+
+.prof h3 {
+  font-family: "Changa", sans-serif;
+}
+
+.prof p {
+  text-transform: uppercase;
+  font-family: "Taviraj", sans-serif;
+}
+
+.w_brand {
+  padding: 2em 0 0 2em;
+}
+
+.w_brand .w_brand_name {
+  font-family: "Acme", sans-serif;
+  font-size: 3rem;
+  color: #000;
+}
+
+.w_brand .w_sec {
+  color: #ff8c00;
+}
+
+.w_nav {
+  background-color: rgba(255, 140, 0, 0.1);
+  margin-top: 3.5rem;
+}
+
+.w_list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5rem;
+}
+
+.w_list li a {
+  color: #000;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0 0 1px #222;
+}
+
+.w_list li a:hover {
+  text-shadow: 0 0 5px #ffa500;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&q=150");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: none;
+}
+
+.bg_about {
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000), to(#434343));
+  background-image: linear-gradient(to right, #000000, #434343);
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
 }
 /*# sourceMappingURL=main.css.map */

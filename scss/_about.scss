@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Taviraj&display=swap");
+
+.info {
+  text-align: center;
+  .pic {
+    text-align: center;
+    padding: 2rem;
+    .pic_img {
+      max-width: 250px;
+      padding: 1rem;
+      position: relative;
+      background: linear-gradient(to right, #2c3e50, #fd746c);
+      padding: 3px;
+    }
+  }
+}
+hr {
+  padding: 2px;
+  color: rgb(122, 43, 43);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  color: #fff5ee;
+}
+.prof {
+  color: #faebd7;
+  h3 {
+    font-family: "Changa", sans-serif;
+  }
+  p {
+    text-transform: uppercase;
+    font-family: "Taviraj", sans-serif;
+  }
+}

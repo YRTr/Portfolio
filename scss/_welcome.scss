@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Ubuntu+Condensed&display=swap");
+
+.w_brand {
+  padding: 2em 0 0 2em;
+  #{&}_name {
+    font-family: "Acme", sans-serif;
+    font-size: 3rem;
+    color: #000;
+  }
+  .w_sec {
+    color: #ff8c00;
+  }
+}
+
+.w_nav {
+  background-color: rgba(255, 140, 0, 0.1);
+  margin-top: 3.5rem;
+}
+
+.w_list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  li a {
+    color: #000;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 0 1px #222;
+    &:hover {
+      text-shadow: 0 0 5px #ffa500;
+    }
+  }
+}

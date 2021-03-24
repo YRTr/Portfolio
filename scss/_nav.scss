@@ -1,16 +1,15 @@
 @import "variables";
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Actor&family=Oswald&display=swap");
 #navbar {
-  background-color: rgba(85, 107, 47, 0.2);
+  background-color: $navbar-bg;
 }
 .logo {
-  color: $brand-primary;
+  color: $logo_brand;
   font-family: "Acme", sans-serif;
   font-size: 1.75rem;
 
   #{&}_icon {
     color: $logo-primary;
-    display: inline-block;
     margin-right: 0.3em;
   }
 
@@ -19,6 +18,21 @@
     .name {
       color: $brand-secondary;
       font-family: "Actor", sans-serif;
+    }
+  }
+}
+
+.n_content {
+  margin-right: 3rem;
+  .n_list {
+    .n_render {
+      margin-right: 2em;
+      font-size: 1.1em;
+      font-weight: bold;
+      &:hover {
+        transform: scale(1.05);
+        color: #ffffe0;
+      }
     }
   }
 }

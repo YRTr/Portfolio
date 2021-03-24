@@ -4,13 +4,16 @@
   "description": "my portfolio website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "script": "node index.js",
+    "dev": "nodemon index.js -e js,hbs,scss"
   },
   "author": "yrtravi",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
-    "nodemon": "^2.0.7"
+    "mongoose": "^5.12.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
   }
 }
